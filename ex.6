@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Homework</title>
+</head>
+<body>
+    <h1>Exercise 6</h1>
+    <script>
+
+        two_digit_number = parseInt(prompt('Enter 2 digit number:'))
+        document.write(`your number = ${two_digit_number}<br />`)
+        
+        most_right_digit = two_digit_number % 10
+        most_left_digit = Math.floor(two_digit_number / 10)
+
+        digit_sum = most_left_digit + most_right_digit;
+        document.write(`digit sum: ${digit_sum}`)
+        
+    </script>
+</body>
+</html>
