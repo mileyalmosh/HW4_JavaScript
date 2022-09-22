@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS homework</title>
+</head>
+<body>
+    <h1>Exercise 8 Etgar</h1>
+    <script>
+        
+        two_digit_number = parseInt(prompt('Enter 2 digit number (10-99):'))
+        document.write(`your number = ${two_digit_number} <br />`)
+        
+        onedigits = two_digit_number % 10
+        twodigits = Math.floor(two_digit_number / 10)
+
+        reverse_number = onedigits + twodigits * 10
+        document.write(`digit sum: ${reverse_number}`)
+
+    </script>
+</body>
+</html>
