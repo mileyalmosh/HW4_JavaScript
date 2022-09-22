@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS homework</title>
+</head>
+<body>
+    <h1>Exercise 5</h1>
+    <script>
+        four_digit_number = parseInt(prompt('Enter 4 digit number:'))
+        document.write(`your number = ${four_digit_number}<br />`)
+        two_right_digits = four_digit_number % 100
+        second_right_digit1 = Math.floor(two_right_digits / 10)
+        three_digits = Math.floor(four_digit_number / 10)
+        second_right_digit2 = three_digits % 10
+
+        two_digits = four_digit_number % 100
+        two_digits = two_digits - two_digits % 10
+        second_right_digit3 = two_digits / 10
+
+        document.write(`second right digit: ${second_right_digit1} `)
+    
+  
+    </script>
+</body>
+</html>
